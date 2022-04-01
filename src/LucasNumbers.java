@@ -5,7 +5,7 @@ public class LucasNumbers {
             System.out.println(i + " => " + calculateLucasNumbers(i));
         }
         System.out.println("\n-------------------[Lucas Ratios]-------------------");
-        for (int i = 35; i < 45; i++) {
+        for (int i = 35; i < 43; i++) {
             long[] firstCalc = timeCalculateLucasNumbers(i + 1);
             long[] secondCalc = timeCalculateLucasNumbers(i);
             System.out.println("The Ratio of lucas numbers " + (i + 1) + "/" + i + " is " +
@@ -15,7 +15,7 @@ public class LucasNumbers {
             System.out.println();
         }
         System.out.println("\n---------------------[My Ratios]---------------------");
-        for (int i = 35; i < 45; i++) {
+        for (int i = 35; i < 43; i++) {
             long[] firstCalc = timeCalculateMyNumbers(i + 1);
             long[] secondCalc = timeCalculateMyNumbers(i);
             System.out.println("The Ratio of my numbers " + (i + 1) + "/" + i + " is " +
